@@ -79,6 +79,6 @@ def main():
         cv2.imshow("face",frame)#まさかのv,uで指定
 
 if __name__ == '__main__':
-    #data_collect()
+    data_collect()
     train()
     main()
